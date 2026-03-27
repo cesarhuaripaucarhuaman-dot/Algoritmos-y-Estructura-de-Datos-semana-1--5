@@ -1,0 +1,4 @@
+Estructura de datos: Es una estructura de datos para guardar, organizar para realizar operaciones como búsquedas, actualizaciones y eliminaciones. Donde los datos se almacenan en bits y bytes en memorias RAM o discos duros. La estructura de datos se divide en 2 tipos que son estáticas y dinámicas que a su vez se dividen en lineales y no lineales.
+Estructuras estáticas: Arrays(Arreglos), Matrices.
+Estructuras dinámicas: Listas enlazadas(Linked Lists), Pilas(Stacks) y Colas(Queues).
+Estructuras dinámicas no lineales: Arboles(Trees), Grafos(Graphs),Tablas hash(Hash Tables).
