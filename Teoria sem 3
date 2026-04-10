@@ -1,0 +1,14 @@
+Utilidad de los arreglos unidimensionales:Almacenar listas de números o datos del mismo tipo,gestiona colecciones de manera eficiente,facilita el acceso y la
+organización de los datos.
+Operaciones principales:
+Comparación de arreglos:
+Se realiza elemento por elemento
+Dos arreglos son iguales si tienen la misma longitud y elementos correspondientes idénticos.
+
+Clonación de arreglos:
+Crear una copia exacta del arreglo original.
+Útil para modificar un arreglo sin afectar el original.
+
+Fusión de arreglos:
+Combinar dos o más arreglos en uno solo.
+Generalmente se hace mediante concatenación.
