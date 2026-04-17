@@ -1,0 +1,5 @@
+El tema son las matrices bidimensionales, específicamente su manipulación en Java. Se estudian matrices cuadradas (igual número de filas y columnas), 
+matrices triangulares inferiores (ceros arriba de la diagonal principal) y superiores (ceros abajo), matrices tridiagonales (solo almacenan valores en la 
+diagonal principal y las dos adyacentes, ahorrando memoria), y matrices simétricas (iguales a su transpuesta, lo que simplifica cálculos). Las matrices triangulares 
+inferiores son útiles para operar solo con la parte baja de la matriz, las tridiagonales reducen el consumo de memoria, y las simétricas evitan duplicar información
+en cálculos matemáticos.
