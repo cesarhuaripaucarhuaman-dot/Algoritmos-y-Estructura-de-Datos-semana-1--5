@@ -1,0 +1,29 @@
+¿Qué es una estructura de datos?
+Forma de organizar y almacenar datos en una computadora para usarlos de manera eficiente, permitiendo operaciones rápidas como:
+
+•	Inserción
+•	Eliminación
+•	Búsqueda
+•	Actualización
+Almacenamiento en computadoras
+Los datos se almacenan en bits y bytes en memoria RAM, discos duros u otros dispositivos. Las estructuras de datos organizan estos bits/bytes para optimizar el acceso y manipulación.
+Clasificación de estructuras de datos
+1. Estáticas (tamaño fijo definido en compilación)
+•	Arrays (arreglos): colección de elementos del mismo tipo, accesibles por índice.
+•	Matrices: arrays de dos o más dimensiones.
+
+2. Dinámicas lineales (tamaño variable, organización secuencial)
+•	Listas enlazadas: nodos con dato y referencia al siguiente nodo.
+•	Pilas (stacks): principio LIFO (último en entrar, primero en salir).
+•	Colas (queues): principio FIFO (primero en entrar, primero en salir).
+
+3. Dinámicas no lineales (organización no secuencial)
+•	Árboles (trees): estructura jerárquica (ej. árbol binario).
+•	Grafos (graphs): nodos conectados por aristas (dirigidos o no dirigidos).
+•	Tablas hash: asocian claves a valores mediante función hash.
+
+Utilidad de las estructuras de datos
+•	Determinan la eficiencia de un programa.
+•	La elección correcta (lineal o no lineal) afecta la velocidad de búsqueda, inserción, etc.
+•	Las no lineales (árboles, grafos) facilitan la resolución de problemas complejos gracias a su organización jerárquica o interconectada.
+
