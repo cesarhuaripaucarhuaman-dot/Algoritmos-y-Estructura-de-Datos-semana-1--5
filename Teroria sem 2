@@ -1,9 +1,27 @@
-Las estructuras de datos estáticas son aquellas cuyo tamaño se define al inicio y no cambia durante la ejecución del programa.
-El ejemplo más común son los arreglos unidimensionales (vectores).
-Estos arreglos permiten almacenar datos del mismo tipo y acceder rápidamente a ellos mediante índices, lo que los hace eficientes.
-Las operaciones principales que se pueden realizar son:
-Inserción: se simula moviendo elementos si hay espacio.
-Actualización: cambiar un valor usando su índice.
-Eliminación: se simula desplazando elementos.
-Recorrido: acceder a todos los elementos con un bucle.
-Copia: crear otro arreglo con los mismos datos.
+¿Qué son las estructuras de datos estáticas?
+
+Son aquellas cuyo tamaño se define en el momento de creación y no puede cambiar durante la ejecución del programa.
+El ejemplo más representativo son los arreglos unidimensionales.
+
+Operaciones con arreglos unidimensionales
+
+•	Inserción: No es posible directamente (tamaño fijo). Se simula desplazando elementos a la derecha si hay espacio disponible.
+•	Actualización: Se accede al índice deseado y se cambia el valor.
+•	Eliminación: Se simula desplazando elementos a la izquierda para cubrir el espacio del elemento eliminado (el tamaño no cambia).
+•	Recorrido: Se accede a cada elemento, generalmente usando un bucle (ej. for).
+•	Copia: Se crea un nuevo arreglo con los mismos elementos del original.
+
+Utilidad de los arreglos unidimensionales
+
+•	Almacenar y gestionar listas de datos homogéneos (ej. calificaciones de estudiantes).
+•	Acceso rápido mediante índices (tiempo constante).
+•	Menor consumo de memoria que las listas enlazadas.
+•	Mejor rendimiento por caché de CPU gracias a su estructura contigua.
+•	Facilitan operaciones matemáticas simples (ej. sumar todos los elementos recorriéndolos secuencialmente).
+
+Ventajas frente a listas enlazadas
+
+•	Menor uso de memoria.
+•	Acceso más rápido por índice.
+•	Mejor localidad de referencia (cacheo de CPU).
+
