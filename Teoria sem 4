@@ -1,5 +1,35 @@
-El tema son las matrices bidimensionales, específicamente su manipulación en Java. Se estudian matrices cuadradas (igual número de filas y columnas), 
-matrices triangulares inferiores (ceros arriba de la diagonal principal) y superiores (ceros abajo), matrices tridiagonales (solo almacenan valores en la 
-diagonal principal y las dos adyacentes, ahorrando memoria), y matrices simétricas (iguales a su transpuesta, lo que simplifica cálculos). Las matrices triangulares 
-inferiores son útiles para operar solo con la parte baja de la matriz, las tridiagonales reducen el consumo de memoria, y las simétricas evitan duplicar información
-en cálculos matemáticos.
+Operaciones con Arreglos Bidimensionales
+
+Objetivo de la sesión
+
+Implementar, identificar y manipular diferentes tipos de matrices en Java:
+
+•	Matrices cuadradas
+•	Matrices poco densas (triangulares inferiores, superiores y tridiagonales)
+•	Matrices simétricas y asimétricas
+
+Tipos de matrices
+
+Matriz cuadrada: Número de filas = número de columnas
+Triangular inferior: Todos los elementos encima de la diagonal principal son cero
+Triangular superior: Todos los elementos debajo de la diagonal principal son cero
+Tridiagonal: Solo tienen elementos distintos de cero en: diagonal principal, diagonal superior inmediata y diagonal inferior inmediata
+Simétrica: Es igual a su transpuesta: matriz[i][j] == matriz[j][i]
+Asimétrica: No cumple la propiedad de simetría (es el caso general)
+
+Utilidad de cada tipo
+
+Triangular inferior: Útil para cálculos que solo requieren la parte inferior de la matriz
+Tridiagonal: Ayuda a ahorrar memoria almacenando solo los elementos necesarios
+Simétrica: Simplifica cálculos al ser igual a su transpuesta (reduce operaciones)
+
+Preguntas clave del cierre
+
+¿Cómo facilita una matriz triangular inferior los cálculos?
+Solo se procesa la parte relevante (debajo de la diagonal), ignorando ceros.
+
+¿Qué beneficio de memoria proporciona una matriz tridiagonal?
+Almacena solo ~3n elementos en lugar de n², ahorrando espacio significativo.
+
+¿De qué manera una matriz simétrica simplifica los cálculos?
+Permite procesar solo la mitad de los elementos (superior o inferior), duplicando eficiencia.
