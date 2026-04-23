@@ -1,0 +1,54 @@
+Integración de Temas
+
+Objetivo de la sesión
+
+Comprender y diferenciar:
+
+•	Estructuras de datos estáticas y dinámicas
+•	Operaciones básicas y avanzadas con arreglos unidimensionales
+•	Operaciones con arreglos bidimensionales (matrices cuadradas poco densas, simétricas y asimétricas)
+
+Aplicando conceptos teóricos y prácticos en Java.
+
+¿Qué es una estructura de datos?
+Forma de organizar y almacenar datos en una computadora para usarlos eficientemente, facilitando:
+
+•	Inserción
+•	Eliminación
+•	Búsqueda
+•	Actualización
+
+Clasificación de estructuras de datos
+
+Por tamaño: Estáticas (tamaño fijo) / Dinámicas (tamaño variable)
+Por organización: Lineales (listas, pilas, colas) / No lineales (árboles, grafos)
+
+Operaciones con arreglos unidimensionales
+
+Básicas: Inserción, actualización, eliminación, recorrido, copia
+Avanzadas: Comparación, clonación, fusión
+
+Arreglos bidimensionales (matrices)
+
+Triangular inferior: Elementos solo en diagonal principal y por debajo
+Triangular superior: Elementos solo en diagonal principal y por encima
+Tridiagonal: Solo diagonal principal y adyacentes (superior e inferior)
+Simétrica: matriz[i][j] == matriz[j][i] (igual a su transpuesta)
+Asimétrica: No cumple la propiedad de simetría
+
+Utilidad de cada tipo
+
+Arreglos unidimensionales: Acceso rápido y eficiente a elementos de tamaño fijo
+Matrices triangulares: Optimizan memoria y procesamiento en cálculos específicos
+Matrices simétricas: Reducen cálculos y almacenamiento (solo se guarda la mitad)
+
+Preguntas clave del cierre
+
+¿Cómo mejoran los arreglos unidimensionales el rendimiento?
+Acceso directo por índice (tiempo constante O(1)) y buena localidad de caché.
+
+¿Qué ventajas ofrecen las matrices triangulares inferiores?
+Ahorro de memoria y procesamiento al ignorar los ceros.
+
+¿Cómo contribuyen las matrices simétricas al análisis de datos?
+Permiten almacenar y procesar solo la mitad de los elementos, simplificando cálculos.
