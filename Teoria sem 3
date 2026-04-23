@@ -1,14 +1,33 @@
-Utilidad de los arreglos unidimensionales:Almacenar listas de números o datos del mismo tipo,gestiona colecciones de manera eficiente,facilita el acceso y la
-organización de los datos.
-Operaciones principales:
-Comparación de arreglos:
-Se realiza elemento por elemento
-Dos arreglos son iguales si tienen la misma longitud y elementos correspondientes idénticos.
+Objetivo de la sesión
 
-Clonación de arreglos:
-Crear una copia exacta del arreglo original.
-Útil para modificar un arreglo sin afectar el original.
+Realizar operaciones avanzadas con arreglos unidimensionales:
 
-Fusión de arreglos:
-Combinar dos o más arreglos en uno solo.
-Generalmente se hace mediante concatenación.
+•	Comparación
+•	Clonación
+•	Fusión
+
+Aplicando técnicas adecuadas y garantizando la integridad de los datos.
+
+Operaciones principales
+
+•	Comparación: Se realiza elemento por elemento. Dos arreglos son iguales si tienen la misma longitud y cada elemento correspondiente es idéntico.
+•	Clonación: Crear una copia exacta del arreglo original. Útil cuando se necesita modificar un arreglo sin afectar al original.
+•	Fusión: Combinar dos o más arreglos en uno solo. Generalmente se hace mediante concatenación (unir uno detrás del otro).
+
+Utilidad de los arreglos unidimensionales
+
+•	Almacenar y gestionar eficientemente colecciones de datos del mismo tipo.
+•	Acceso sencillo y rápido a los elementos mediante índices.
+•	Facilitan la organización y manipulación de datos relacionados.
+
+Preguntas clave del cierre
+
+1. ¿Cómo simplifica un arreglo unidimensional la gestión de datos relacionados?
+Permite almacenar múltiples datos del mismo tipo en una sola variable, accediendo a cada uno mediante un índice, lo que evita crear variables individuales y facilita operaciones como recorridos con bucles.
+
+2. ¿Qué beneficios proporciona para acceder y modificar datos rápidamente?
+Ofrece acceso directo en tiempo constante O(1) a cualquier elemento mediante su índice, y la modificación es igual de rápida, sin necesidad de recorrer la estructura.
+
+3. ¿En qué situaciones es más ventajoso usarlo frente a otras estructuras de datos?
+Cuando se conoce de antemano el tamaño fijo de los datos, se requiere acceso aleatorio frecuente por posición, se busca un bajo consumo de memoria, o se necesita buena localidad de caché (ej. listas de calificaciones, sensores, valores de matrices).
+
